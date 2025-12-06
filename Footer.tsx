@@ -38,6 +38,16 @@ const Footer: React.FC = () => {
                             <li><Link to="/contact" className="text-sm text-gray-400 hover:text-purple-400 transition-colors">Contact</Link></li>
                             {/* <li><Link to="/login" className="text-sm text-gray-400 hover:text-purple-400 transition-colors">Employee Login</Link></li> */}
                         </ul>
+                        <div className="mt-4">
+                            <a
+                                href="https://pixodeapply.vercel.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block px-4 py-2 text-xs font-semibold text-white bg-gradient-to-r from-pink-600 to-rose-600 rounded-lg hover:from-pink-700 hover:to-rose-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                            >
+                                Be One Of Us
+                            </a>
+                        </div>
                     </div>
                     <div>
                         <h4 className="text-sm font-semibold text-white">Contact</h4>
